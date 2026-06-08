@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
 default-src 'self';
 script-src 'self' https://cdnjs.cloudflare.com;
 script-src-elem 'self' https://cdnjs.cloudflare.com;
@@ -14,126 +15,149 @@ img-src 'self' data:;
 connect-src 'self';
 base-uri 'self';
 frame-ancestors 'none';
-">
-    <meta property="og:title" content="Xsure Digital | Digital Insurance Platform">
-    <meta property="og:description"
-        content="Modern insurance platform for policy management, claims processing, and onboarding.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://xsure-digital.com">
-    <meta property="og:image" content="https://xsure-digital.com/assets/images/og-image.png">
+"
+    />
+    <meta
+      property="og:title"
+      content="Xsure Digital | Digital Insurance Platform"
+    />
+    <meta
+      property="og:description"
+      content="Modern insurance platform for policy management, claims processing, and onboarding."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://xsure-digital.com" />
+    <meta
+      property="og:image"
+      content="https://xsure-digital.com/assets/images/og-image.png"
+    />
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Xsure Digital">
-    <meta name="twitter:description" content="Modern digital insurance platform.">
-    <meta name="twitter:image" content="https://xsure-digital.com/assets/images/og-image.png">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Xsure Digital" />
+    <meta
+      name="twitter:description"
+      content="Modern digital insurance platform."
+    />
+    <meta
+      name="twitter:image"
+      content="https://xsure-digital.com/assets/images/og-image.png"
+    />
 
     <title>Xsure Digital | Digital Insurance Platform</title>
 
-    <meta name="theme-color" content="#1a237e">
-    <meta name="description"
-        content="Xsure Digital is building a modern digital insurance platform for policy management, claims processing, and customer onboarding.">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Xsure Digital">
-<meta name="keywords" content="insurance platform, digital insurance, claims automation, policy management">
-<meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#1a237e" />
+    <meta
+      name="description"
+      content="Xsure Digital is building a modern digital insurance platform for policy management, claims processing, and customer onboarding."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Xsure Digital" />
+    <meta
+      name="keywords"
+      content="insurance platform, digital insurance, claims automation, policy management"
+    />
+    <meta name="format-detection" content="telephone=no" />
 
-    <link rel="canonical" href="https://xsure-digital.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="canonical" href="https://xsure-digital.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
 
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    ></script>
 
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="shortcut icon" href="/assets/icon/FavIcon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/icon/FavIcon.svg"
+      type="image/x-icon"
+    />
 
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Xsure Digital (Pty) Ltd",
-      "url": "https://xsure-digital.com",
-      "description": "Digital insurance platform for policy management, claims processing, and onboarding."
-    }
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Xsure Digital (Pty) Ltd",
+        "url": "https://xsure-digital.com",
+        "description": "Digital insurance platform for policy management, claims processing, and onboarding."
+      }
     </script>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div class="cursor-glow"></div>
 
     <div class="theme-toggle">
-        <label class="switch">
-            <input type="checkbox" id="themeBtn" aria-label="Toggle dark mode">
-            <span class="slider">
-                <span class="icon sun">☀️</span>
-                <span class="icon moon">🌙</span>
-            </span>
-        </label>
+      <label class="switch">
+        <input type="checkbox" id="themeBtn" aria-label="Toggle dark mode" />
+        <span class="slider">
+          <span class="icon sun">☀️</span>
+          <span class="icon moon">🌙</span>
+        </span>
+      </label>
     </div>
 
     <div class="orb orb-1"></div>
     <div class="orb orb-2"></div>
 
     <main class="page-wrapper">
+      <section class="hero-card">
+        <div class="logo-block gsap-fade">
+          <img
+            rel="preload"
+            as="image"
+            src="/assets/images/Original.png"
+            alt="Xsure Digital logo"
+            loading="lazy"
+          />
+        </div>
 
-        <section class="hero-card">
+        <span class="eyebrow gsap-fade"> Coming Soon </span>
 
+        <h1 class="hero-heading gsap-reveal">
+          Modern Insurance<br />
+          <em>Reimagined</em>
+        </h1>
 
-            <div class="logo-block gsap-fade">
-                <img rel="preload" as="image" src="/assets/images/Original.png" alt="Xsure Digital logo" loading="lazy">
-            </div>
+        <p class="hero-sub gsap-reveal">
+          Xsure Digital is building a secure, modern insurance platform that
+          simplifies policy management, claims processing, and customer
+          onboarding.
+        </p>
 
+        <p class="hero-sub gsap-reveal">
+          Designed for insurers, brokers, and policyholders who expect speed,
+          transparency, and intelligent digital experiences.
+        </p>
 
-            <span class="eyebrow gsap-fade">
-                Coming Soon
-            </span>
+        <div class="launch-panel gsap-reveal">
+          <h3>Launching Soon</h3>
+          <p>A new standard for digital insurance platforms is on its way.</p>
+        </div>
 
-
-            <h1 class="hero-heading gsap-reveal">
-                Modern Insurance<br>
-                <em>Reimagined</em>
-            </h1>
-
-
-            <p class="hero-sub gsap-reveal">
-                Xsure Digital is building a secure, modern insurance platform that simplifies policy management, claims
-                processing, and customer onboarding.
-            </p>
-
-            <p class="hero-sub gsap-reveal">
-                Designed for insurers, brokers, and policyholders who expect speed, transparency, and intelligent
-                digital experiences.
-            </p>
-
-
-            <div class="launch-panel gsap-reveal">
-                <h3>Launching Soon</h3>
-                <p>A new standard for digital insurance platforms is on its way.</p>
-            </div>
-
-
-            <div class="trust-items gsap-reveal">
-                <span>Secure Infrastructure</span>
-                <span>Claims Automation</span>
-                <span>Policy Management</span>
-                <span>Digital Onboarding</span>
-            </div>
-
-        </section>
-
+        <div class="trust-items gsap-reveal">
+          <span>Secure Infrastructure</span>
+          <span>Claims Automation</span>
+          <span>Policy Management</span>
+          <span>Digital Onboarding</span>
+        </div>
+      </section>
     </main>
 
     <footer class="page-footer gsap-fade">
-        <p>© 2026 Xsure Digital (Pty) Ltd</p>
+      <p>© 2026 Xsure Digital (Pty) Ltd</p>
     </footer>
 
     <script src="/scripts/script.js" defer></script>
-</body>
-
+  </body>
 </html>
