@@ -1,0 +1,25 @@
+{
+  "name": "xsure-digital",
+  "version": "1.0.0",
+  "description": "Xsure-Digital is a modern insurance technology platform designed to streamline insurance operations, improve customer experiences, and accelerate digital transformation across the insurance industry.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-Laubscher/Xsure-Digital.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Michael-Laubscher/Xsure-Digital/issues"
+  },
+  "homepage": "https://github.com/Michael-Laubscher/Xsure-Digital#readme",
+  "devDependencies": {
+    "prettier": "^3.8.3"
+  }
+}
