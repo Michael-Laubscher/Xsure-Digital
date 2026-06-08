@@ -1,29 +1,70 @@
 # Xsure-Digital
 
-🚀 Xsure-Digital is a modern technology platform dedicated to building secure, scalable, and innovative digital solutions for businesses and organizations.
+## Digital Insurance Platform
 
-Our mission is to empower companies through cutting-edge software development, cloud technologies, automation, and user-focused digital experiences.
+Xsure-Digital is a modern insurance technology platform designed to streamline insurance operations, improve customer experiences, and accelerate digital transformation across the insurance industry.
 
-## Features
+The platform provides secure and efficient solutions for policy management, claims administration, customer onboarding, premium tracking, and digital insurance services.
 
-- 🌐 Modern Web Applications
-- 📱 Mobile App Development
-- ☁️ Cloud-Native Solutions
-- 🔒 Secure Authentication & Data Protection
-- ⚡ API Development & Integrations
-- 🤖 Process Automation
-- 📊 Data Analytics & Reporting
-- 🚀 Scalable Architecture
+---
+
+## Key Features
+
+### Policy Management
+- Create and manage insurance policies
+- Policy renewals and updates
+- Coverage and premium tracking
+- Policy document generation
+
+### Claims Processing
+- Digital claims submission
+- Claims tracking and status updates
+- Automated workflows
+- Claims history management
+
+### Customer Management
+- Customer registration and onboarding
+- Secure profile management
+- KYC and verification support
+- Customer communication tools
+
+### Payment & Billing
+- Premium payment tracking
+- Invoice generation
+- Payment history
+- Automated payment reminders
+
+### Reporting & Analytics
+- Claims analytics
+- Policy performance insights
+- Customer reporting
+- Business intelligence dashboards
+
+### Security
+- Role-based access control
+- Secure authentication
+- Data encryption
+- Audit logging and compliance support
+
+---
 
 ## Technology Stack
 
-Depending on the project requirements, Xsure-Digital utilizes:
+### Frontend
+- React.js
+- Next.js
+- Tailwind CSS
 
-- Frontend: React, Next.js, Vue.js
-- Backend: Node.js, Express, NestJS
-- Database: PostgreSQL, MySQL, MongoDB
-- Cloud: AWS, Azure, Google Cloud
-- DevOps: Docker, Kubernetes, GitHub Actions
-- Security: JWT, OAuth2, Role-Based Access Control
+### Backend
+- Node.js
+- Express.js
+- REST APIs
 
-## Project Structure
+### Database
+- PostgreSQL
+- MongoDB
+
+### Cloud & DevOps
+- Docker
+- GitHub Actions
+- AWS / Azure
