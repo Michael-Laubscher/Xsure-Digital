@@ -73,18 +73,28 @@ gsap.to(".orb-2", {
 // ===============================
 const glow = document.querySelector(".cursor-glow");
 
-document.addEventListener("mousemove",(e)=>{
-  glow.style.left = e.clientX + "px";
-  glow.style.top = e.clientY + "px";
+let lastX = 0, lastY = 0;
+
+document.addEventListener("mousemove", (e) => {
+  lastX = e.clientX;
+  lastY = e.clientY;
 });
+
+function updateGlow() {
+  glow.style.left = lastX + "px";
+  glow.style.top = lastY + "px";
+  requestAnimationFrame(updateGlow);
+}
+
+updateGlow();
 
 
 // ===============================
 // DARK / LIGHT MODE TOGGLE
 // ===============================
-const toggle = document.getElementById("themeBtn");
+const btn = document.getElementById("themeBtn");
 
-toggle.addEventListener("change", () => {
+btn.addEventListener("change",()=>{
   document.body.classList.toggle("dark");
 
   localStorage.setItem(
@@ -94,7 +104,13 @@ toggle.addEventListener("change", () => {
 });
 
 // load saved theme
-if(localStorage.getItem("theme") === "dark"){
+if(localStorage.getItem("theme")==="dark"){
   document.body.classList.add("dark");
-  toggle.checked = true;
 }
+
+
+document.querySelectorAll("img").forEach(img => {
+  img.addEventListener("error", () => {
+    img.src = "/assets/images/Fallback.svg";
+  });
+});
